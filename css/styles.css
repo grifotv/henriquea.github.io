@@ -1,0 +1,53 @@
+
+html {font-size: 0.813em;}
+
+body {
+  background-color: white;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #455A64;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.602em;
+}
+
+h2 {font-size: 1.424em;}
+
+h3 {font-size: 1.266em;}
+
+h4 {font-size: 1.125em;}
+
+small, .font_small {font-size: 0.889em;}
+
+strong { color: #37474F; }
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  color: #455A64;
+}
+
+a {
+  text-decoration: none;
+  color: #3F51B5;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 494px;
+  padding: 1.3em;
+}
