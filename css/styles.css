@@ -4,7 +4,7 @@ html {font-size: 0.813em;}
 
 body {
   background-color: white;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Roboto Mono', monospace, sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
@@ -41,8 +41,18 @@ body { color: #455A64; }
 a { text-decoration: none; color: #3F51B5; } 
 
 /* layout */
-.wrapper { margin: 0 auto; max-width: 494px; padding: 1.3em; }
+.wrapper { 
+  margin: 0 auto; 
+  max-width: 494px; 
+  padding: 1.3em; 
+  opacity: 0; 
+  transition: .3s ease; 
+  -webkit-backface-visibility: hidden; /* ta safari */
+  -webkit-transform-style: preserve-3d;
+}
 
 .footer-note { margin-top: 3.9em; color: #90A4AE; }
 
 .footer-note a { color: #7986CB; }
+
+.wf-active .wrapper { opacity: 1; }
