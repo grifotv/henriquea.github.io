@@ -29,9 +29,9 @@ h3 {font-size: 1.266em;}
 
 h4 {font-size: 1.125em;}
 
-small, .font_small {font-size: 0.889em; font-weight: 500}
+small, .font_small {font-size: 0.889em; }
 
-strong { color: #37474F; }
+strong { color: #37474F; font-weight: 500; }
 
 *, *:after, *:before {
   box-sizing: border-box;
