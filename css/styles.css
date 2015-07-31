@@ -1,4 +1,5 @@
 
+/* typography */
 html {font-size: 0.813em;}
 
 body {
@@ -33,21 +34,15 @@ small, .font_small {font-size: 0.889em; }
 
 strong { color: #37474F; font-weight: 500; }
 
-*, *:after, *:before {
-  box-sizing: border-box;
-}
+*, *:after, *:before { box-sizing: border-box; }
 
-body {
-  color: #455A64;
-}
+body { color: #455A64; }
 
-a {
-  text-decoration: none;
-  color: #3F51B5;
-}
+a { text-decoration: none; color: #3F51B5; } 
 
-.wrapper {
-  margin: 0 auto;
-  max-width: 494px;
-  padding: 1.3em;
-}
+/* layout */
+.wrapper { margin: 0 auto; max-width: 494px; padding: 1.3em; }
+
+.footer-note { color: #90A4AE; }
+
+.footer-note a { color: #7986CB; }
