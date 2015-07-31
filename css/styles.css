@@ -43,6 +43,6 @@ a { text-decoration: none; color: #3F51B5; }
 /* layout */
 .wrapper { margin: 0 auto; max-width: 494px; padding: 1.3em; }
 
-.footer-note { color: #90A4AE; }
+.footer-note { margin-top: 3.9em; color: #90A4AE; }
 
 .footer-note a { color: #7986CB; }
