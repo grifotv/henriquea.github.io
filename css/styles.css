@@ -45,14 +45,25 @@ a { text-decoration: none; color: #3F51B5; }
   margin: 0 auto; 
   max-width: 494px; 
   padding: 1.3em; 
-  opacity: 0; 
   transition: .3s ease; 
   -webkit-backface-visibility: hidden; /* ta safari */
   -webkit-transform-style: preserve-3d;
 }
 
+.placeholder { display: none; }
+
+.me { display: block; }
+
+.photo {  transition: .3s ease; }
+
 .footer-note { margin-top: 3.9em; color: #90A4AE; }
 
 .footer-note a { color: #7986CB; }
+
+
+.js .wrapper {  opacity: 0; }
+.js .placeholder { display: block; }
+.js .me { display: none; }
+.js .photo { opacity: 0; }
 
 .wf-active .wrapper { opacity: 1; }
