@@ -5,7 +5,7 @@
   "scripts": {
     "htmlmin": "./node_modules/.bin/html-minifier template.html --collapse-whitespace --minify-js -o index.html",
     "cleancss": "./node_modules/.bin/cleancss -o styles.min.css styles.css",
-    "minify": "npm run htmlmin && npm run cleancss"
+    "build": "npm run htmlmin && npm run cleancss"
   },
   "devDependencies": {
     "clean-css": "^3.3.8",
