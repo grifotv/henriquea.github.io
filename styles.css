@@ -38,14 +38,34 @@ strong { font-weight: 600; }
 
 body { color: #212121; }
 
-a { text-decoration: none; color: #3F51B5; } 
+a { text-decoration: none; color: #3F51B5; }
+
+a.visited {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+}
+
+a.visited:after {
+  position: absolute;
+  width: 100%;
+  content: "";
+  border: solid 1px;
+  top: 10px;
+  left: 0;
+  z-index: 10;
+}
+
+.speaking a {
+  font-size: 15px;
+}
 
 /* layout */
-.wrapper { 
-  width: 1140px; 
+.wrapper {
+  width: 1140px;
   padding: 3.9em;
   padding-right: 4.3em;
-  transition: .3s ease; 
+  transition: .3s ease;
   -webkit-backface-visibility: hidden; /* ta safari */
   -webkit-transform-style: preserve-3d;
 }
@@ -58,7 +78,7 @@ a { text-decoration: none; color: #3F51B5; }
   padding: 1.3em 0;
 }
 
-.main:after, 
+.main:after,
 .main:before {
   content: "";
   display: block;
