@@ -44,41 +44,90 @@
       a {text-decoration: none; color: #1EAEDB;}
 
       /* laytout */
-      .container {
-        margin: 45px;
-        max-width: 570px;
+      html, body {
+        margin: 0;
+        padding: 0;
       }
+      .container {
+        margin-top: 0;
+        border: 20px solid #fff;
+        background: #ECEFF1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 40px;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        color: #212121;
+        overflow: hidden;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+      }
+
+      .text {
+        max-width: 700px;
+      }
+
       ul {
         list-style: none;
         margin: 0;
         padding: 0;
       }
       .elsewhere a {
-        color: #333;
+        color: #212121;
       }
-      .gray {
-        color: #aaa;
+
+      p:first-child {
+        margin-top: 0;
+      }
+
+      @media (max-width: 600px) {
+        html, body {
+           overflow-y: scroll;
+          -webkit-overflow-scrolling: touch;
+        }
+        .container {
+          position: relative;
+          height: inherit;
+        }
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <p>Hi I'm Henrique Alves, Front-end Engineer with heavy focus on UI development and UX design.
-      I have a vast experience building digital products.</p>
-      <p>I like product design, simplicity, football, black tea and cold weather.</p>
-      <p>Currently at <a href="https://lystable.com/">Lystable</a>. My previous work experience
-      also includes <a href="http://www.rbs.co.uk">RBS</a>, <a href="https://paypoint.com">PayPoint</a>,
-      <a href="https://www.hailoapp.com">Hailo</a>, <a href="http://www.thetimes.co.uk">The Times</a>,
-      <a href="http://www.b-reel.com">B-Reel</a> and <a href="http://www.possible.com">Possible</a>.</p>
-      <p>&nbsp;</p>
-      <p><strong>&mdash; Elsewhere</strong></p>
-      <ul class="elsewhere">
-        <li><span class="gray">GitHub</span> <a href="http://github.com/henriquea">github.com/henriquea</a></li>
-        <li><span class="gray">Twitter</span> <a href="http://twitter.com/healves82">twitter.com/healves82</a></li>
-        <li><span class="gray">LinkedIn</span> <a href="http://linkedin.com/in/healves82">linkedin.in/healves82</a></li>
-        <li><span class="gray">Instagram</span> <a href="https://www.instagram.com/healves82/">instagram.com/healves82</a></li>
-        <li><span class="gray">VSCO</span> <a href="http://vsco.co/healves/">vsco.co/healves</a></li>
-      </ul>
+      <div class="text">
+        <p>Hi I'm Henrique Alves, Front-end Engineer with heavy focus on UI development and UX design.</p>
+        <p>I like product design, simplicity, football, black tea and cold weather.</p>
+        <p>Currently at <a href="https://lystable.com/">Lystable</a>. My previous work experience
+        also includes <a href="http://www.rbs.co.uk">RBS</a>, <a href="https://paypoint.com">PayPoint</a>,
+        <a href="https://www.hailoapp.com">Hailo</a>, <a href="http://www.thetimes.co.uk">The Times</a>,
+        <a href="http://www.b-reel.com">B-Reel</a> and <a href="http://www.possible.com">Possible</a>.</p>
+        <p>&nbsp;</p>
+        <p><strong>&mdash; Elsewhere</strong></p>
+        <ul class="elsewhere">
+          <li><a href="http://github.com/henriquea">GitHub</a></li>
+          <li><a href="http://twitter.com/healves82">Twitter</a></li>
+          <li><a href="http://linkedin.com/in/healves82">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/healves82/">Instagram</a></li>
+          <li><a href="http://vsco.co/healves/">VSCO</</a></li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
