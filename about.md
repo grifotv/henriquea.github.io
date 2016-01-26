@@ -24,8 +24,7 @@ Four simple principles I like to follow when building products:
 - Flow
 
 I'm living in London, England with my wife and two daughters. Currently working at
-[Lystable](http://lystable.com). My previous work experience also includes [RBS](http://www.rbs.co.uk),
-[PayPoint](http://paypoint.com), [Hailo](http://hailoapp.com), [The Times](http://www.thetimes.co.uk), [B-Reel](http://b-reel.com) and
+[Lystable](http://lystable.com). My previous work experience also includes [RBS](http://www.rbs.co.uk), [Hailo](http://hailoapp.com), [The Times](http://www.thetimes.co.uk), [B-Reel](http://b-reel.com) and
 [Possible](http://www.possible.com).
 
 Interested in make the web a better place for desktop, mobile and other platforms. I see the web outside the browser as general-purpose display and interaction engine.
