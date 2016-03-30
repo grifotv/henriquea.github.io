@@ -41,8 +41,8 @@ interaction engine.
   scrolling="no"
   frameborder="0"
   style="border:none; overflow:hidden; width:70px; height:35px;"
-  allowTransparency="true"
-/>
+  allowTransparency="true">
+</iframe>
 
 Picture by [Chris T. Olsen](https://twitter.com/ctolsen).
 
