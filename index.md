@@ -26,8 +26,8 @@ Four simple principles I like to follow when building products:
 - Simplicity
 - Flow
 
-I'm living in London, England with my wife and two daughters. Currently working
-at [Lystable](http://lystable.com). My previous work experience also includes
+I'm living in London, England with my wife and two daughters. Currently working remotely
+at [Dadi](http://dadi.com). My previous work experience also includes [Lystable](http://lystable.com),
 [RBS](http://www.rbs.co.uk), [Hailo](http://hailoapp.com),
 [The Times](http://www.thetimes.co.uk), [B-Reel](http://b-reel.com) and
 [Possible](http://www.possible.com).
@@ -36,8 +36,12 @@ Interested in make the web a better place for desktop, mobile and other
 platforms. I see the web outside the browser as general-purpose display and
 interaction engine.
 
-<iframe
-  src="//evening-savannah-30912.herokuapp.com/embed?url=alves.im&emoji=clap"
+<iframe src="http://heymoji.cool/embed?url=alves.im&emoji=clap"
+  scrolling="no"
+  frameborder="0"
+  style="border:none; overflow:hidden; width:70px; height:35px;"
+  allowTransparency="true">
+</iframe> <iframe src="http://heymoji.cool/embed?url=alves.im&emoji=rocket"
   scrolling="no"
   frameborder="0"
   style="border:none; overflow:hidden; width:70px; height:35px;"
@@ -52,6 +56,10 @@ Picture by [Chris T. Olsen](https://twitter.com/ctolsen).
 - [HowTo Digital](http://howtodigital.ru) Moscow 30-31 Oct 15
 - [FITC](http://fitc.ca/presentation/breaking-the-workflow/) Amsterdam 24th
 Feb 15
+
+### Side projects
+
+- [Heymoji](http://heymoji.cool)
 
 ### Elsewhere
 
