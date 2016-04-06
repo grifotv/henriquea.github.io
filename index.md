@@ -46,6 +46,16 @@ interaction engine.
   frameborder="0"
   style="border:none; overflow:hidden; width:70px; height:35px;"
   allowTransparency="true">
+</iframe> <iframe src="http://heymoji.cool/embed?url=alves.im&emoji=fire"
+  scrolling="no"
+  frameborder="0"
+  style="border:none; overflow:hidden; width:70px; height:35px;"
+  allowTransparency="true">
+</iframe> <iframe src="http://heymoji.cool/embed?url=alves.im&emoji=soccer"
+  scrolling="no"
+  frameborder="0"
+  style="border:none; overflow:hidden; width:70px; height:35px;"
+  allowTransparency="true">
 </iframe>
 
 Picture by [Chris T. Olsen](https://twitter.com/ctolsen).
