@@ -27,7 +27,7 @@ Four simple principles I like to follow when building products:
 - Flow
 
 I'm living in London, England with my wife and two daughters. Currently working remotely
-at [Dadi](http://dadi.com). My previous work experience also includes [Lystable](http://lystable.com),
+at [Dadi](http://dadi.co). My previous work experience also includes [Lystable](http://lystable.com),
 [RBS](http://www.rbs.co.uk), [Hailo](http://hailoapp.com),
 [The Times](http://www.thetimes.co.uk), [B-Reel](http://b-reel.com) and
 [Possible](http://www.possible.com).
