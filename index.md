@@ -64,12 +64,12 @@ Picture by [Chris T. Olsen](https://twitter.com/ctolsen).
 
 - [React Amsterdam](http://react-amsterdam.com/#speakers) 16 Apr 16
 - [HowTo Digital](http://howtodigital.ru) Moscow 30-31 Oct 15
-- [FITC](http://fitc.ca/presentation/breaking-the-workflow/) Amsterdam 24th
-Feb 15
+- [FITC](http://fitc.ca/presentation/breaking-the-workflow/) Amsterdam 24th Feb 15
 
 ### Side projects
 
 - [Heymoji](http://heymoji.cool)
+- [Minigrid](http://alves.im/minigrid)
 
 ### Elsewhere
 
