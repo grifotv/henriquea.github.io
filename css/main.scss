@@ -19,6 +19,7 @@ body {
   line-height: 24px;
   font-family: -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 body.debug {
@@ -34,11 +35,11 @@ body.debug {
 a {
   color: #212121;
   text-decoration: none;
-  border-bottom: solid 2px #4D6DE3;
+  border-bottom: solid 2px #ddd;
 }
 
 a:hover, a:focus {
-  color: #4D6DE3;
+  border-color: #4D6DE3;
 }
 
 h1, h2, h3 {
@@ -85,14 +86,14 @@ p {
   font-size: 48px;
   font-weight: 700;
   line-height: 48px;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
   > img {
     width: 100%;
     max-width: 466px;
   }
   &:after {
     position: relative;
-    top: 14px;
+    top: 16px;
     line-height: 48px;
     margin-top: 24px;
     content: "—";
@@ -117,7 +118,7 @@ pre {
 }
 
 code {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 /* Media queries */
@@ -132,7 +133,7 @@ code {
     top: 3px;
     &:after {
       line-height: 24px;
-      top: 8px;
+      top: 6px;
     }
   }
   .index header > img {
