@@ -1,13 +1,10 @@
-title: "Henrique Alves | Frontend Engineer"
-brand: HA
-email: henrique
-description: "Personal website of Henrique Alves. Front-end Engineer based in London."
-footer: "Henrique Alves"
+title: Henrique Alves
+email: henriquea@gmail.com
+description: >
+  Front-end Engineer
 baseurl: ""
 url: "http://alves.im"
-twitter_username: "@healves82"
-github_username: "henriquea"
 
 # Build settings
-markdown: kramdown
 permalink: /:categories/:title.html
+markdown: kramdown
