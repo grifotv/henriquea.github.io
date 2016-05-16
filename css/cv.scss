@@ -141,7 +141,7 @@ p {
   max-width: 740px;
 }
 
-@media (max-width: 810px) {
+@media only screen and (max-width: 810px) {
   .col {
     flex: 0 0 100%;
   }
