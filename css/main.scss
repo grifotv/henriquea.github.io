@@ -68,8 +68,7 @@ p {
   margin: 24px 0;
 }
 
-.index,
-.post {
+.content {
   padding: 0 24px;
   margin: 72px auto 48px auto;
   width: 100%;
@@ -80,7 +79,7 @@ p {
   max-width: 720px;
 }
 
-.index header {
+.heading {
   position: relative;
   top: 6px;
   font-size: 48px;
@@ -101,7 +100,7 @@ p {
   }
 }
 
-.post ul {
+.post > ul {
   list-style: circle;
   margin-left: 42px;
 }
@@ -123,10 +122,10 @@ code {
 
 /* Media queries */
 @media (max-width: 600px) {
-  .index {
+  .content {
     margin: 48px 0;
   }
-  .index header {
+  .heading {
     font-size: 24px;
     line-height: 24px;
     margin: 24px 0;
@@ -136,7 +135,7 @@ code {
       top: 6px;
     }
   }
-  .index header > img {
+  .heading > img {
     width: 90%;
   }
 }
