@@ -126,7 +126,6 @@ p {
   top: 6px;
   line-height: 24px;
   margin: 24px 0;
-  .no-margin { margin: 0; }
 }
 
 .content {
@@ -148,9 +147,8 @@ p {
   &:nth-child(2n) { margin-right: 0; }
 }
 
-.margin-top {
-  margin-top: 72px;
-}
+.no-margin { margin: 0; }
+.margin-top { margin-top: 72px; }
 
 @media only screen and (max-width: 810px) {
   .col {
