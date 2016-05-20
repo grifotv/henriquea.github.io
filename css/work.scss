@@ -133,3 +133,9 @@ a {
     margin-bottom: 48px;
   }
 }
+
+@media (max-width: 320px) {
+  .project-image {
+    min-height: 180px;
+  }
+}

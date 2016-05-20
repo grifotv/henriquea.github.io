@@ -10,6 +10,7 @@ h3.margin-top {
 }
 
 h4 {
+  margin-top: 24px;
   margin-bottom: 0;
 }
 
@@ -17,19 +18,20 @@ h4 {
   padding: 0 24px;
   margin: 72px auto 48px auto;
   width: 100%;
-  max-width: 720px;
+  max-width: 760px;
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .col {
-  flex: 0 0 46%;
-  margin-right: 48px;
-  .full { flex: 0 0 100%; margin-right: 0; }
-  &:nth-child(2n) { margin-right: 0; }
+  flex: 0 0 45%;
+  .full {
+    flex: 0 0 100%;
+  }
 }
 
 .no-margin { margin: 0; }
