@@ -75,3 +75,24 @@ p {
   line-height: 24px;
   margin: 24px 0;
 }
+
+
+/* mq */
+@media only screen and (max-width: 810px) {
+  .col {
+    flex: 0 0 100%;
+  }
+  ul.margin-top {
+    margin-top: 0;
+  }
+}
+
+/* print */
+@media print {
+  body {
+    zoom: 0.7;
+  }
+  h1, h2, h3, h4, h5 {
+    font-weight: 500;
+  }
+}
