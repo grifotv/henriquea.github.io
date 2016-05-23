@@ -1,0 +1,29 @@
+---
+---
+@charset "utf-8";
+
+@import "common";
+@import "heading";
+@import "layout";
+
+.post-title {
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.post-date {
+  margin: 0;
+  color: rgb(158, 158, 158);
+}
+
+.post-body {
+  a {
+    border-color: #4D6DE3;
+  }
+}
+
+pre, code {
+  font-size: 14px;
+}
