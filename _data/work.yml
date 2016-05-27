@@ -1,0 +1,20 @@
+- title: Minigrid
+  stack: JavaScript, Open Source
+  description: >
+    Minimal 2kb zero dependency cascading grid JavaScript layout library.
+  url: http://minigrid.js.org
+  style: color:#fff; background-color:#212121
+
+- title: Lystable
+  stack: React, Redux, UX
+  description: >
+    Designing and implementing engaging UX for the team and supplier apps.
+  url: https://lystable.com
+  style: color:#fff; background-color:#1A9ED6
+
+- title: Royal Bank of Scotland
+  stack: React, Redux, UX
+  description: >
+    FX/trading tool prototyping and design toolkit/style guide.
+  url: https://www.agilemarkets.com
+  style: color:#fff; background-color:#0a2f64

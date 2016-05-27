@@ -1,10 +1,9 @@
-title: Henrique Alves
+title: Henrique Alves – Front-end Engineer
 email: henriquea@gmail.com
 description: >
-  Front-end Engineer
+  I'm Henrique Alves, Front-end Engineer focused on UX design based in London, England.
 baseurl: "/"
-url: "http://alves.im"
-
-# Build settings
+url: http://alves.im
+github: https://github.com/henriquea/henriquea.github.io
 permalink: /:categories/:title.html
 markdown: kramdown

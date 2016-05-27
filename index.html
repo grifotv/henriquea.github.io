@@ -1,43 +1,107 @@
 ---
-layout: page
-title: Henrique Alves | Front-end Engineer
-description: Henrique Alves | Front-end Engineer
-stylesheet: css/main.css
+layout: default
 ---
 
-<article class="content">
+<header id="top" class="tc bb b--light-gray ph3 pv6 pv6-ns">
+  <h1 class="f4 fw4 lh-copy center ph3 mw6">
+    Hi, I'm Henrique Alves &mdash; Frontend Engineer focused on UX design based in London, England.
+    <a class="link db black-50" href="#contact">Get in touch</a>
+  </h1>
+</header>
 
-  <header class="heading">
-    <div class="avatar">
-      <span class="avatar-image"></span>
-      <div class="avatar-name">
-        <h3>Henrique Alves</h3>
-        <cite>Front-end Engineer</cite>
+<section class="pv5 pv5-ns cf bb b--light-gray ph3 ph5-ns">
+  <div class="cf mw8 center ph3 mb5">
+    <ul class="cf list pl0 ml0">
+      {% for work in site.data.work %}
+      <li class="fl w-100 w-50-m w-33-l">
+        <div class="pa4">
+          <a href="{{ work.url }}" class="link pa4 db h3 mb4" style="{{ work.style }}" title="{{ work.title }}">
+            <small class="f6 fw2 ttu tracked">{{ work.title }}</small>
+          </a>
+          <p class="mb4">
+            <small class="f7 gray fw2 ttu tracked">{{ work.stack }}</small>
+          </p>
+          <p class="lh-copy measure f6">{{ work.description }}</p>
+          <p class="f5">
+            <a class="link blue" href="{{ work.url }}" title="{{ work.title }}">{{ work.url | remove: "http://" | remove: "https://" | remove: "www." }} →</a>
+          </p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="cf mw8 center ph3 mb2">
+    <img class="w-100" src="/images/work-hailo.png" alt="Hailo">
+  </div>
+  <div class="cf mw7 center ph3 mb4">
+    <div class="cf">
+      <h3 class="f3 mb0">Hailo</h3>
+      <p class="mb4">
+        <small class="f7 gray fw2 ttu tracked">Backbone, Sass</small>
+      </p>
+      <p class="lh-copy measure">Building the new marketing site, living
+        style guide and internal web tools.
+      </p>
+      <p class="f5">
+       <a class="link blue" href="http://hailoapp.com" title="Hailo">hailoapp.com →</a>
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<section class="pv5 pv5-ns cf bb b--light-gray ph3 ph5-ns" id="about">
+  <div class="cf mw7 center ph3">
+    <h2 class="f5 tracked ttu">About</h2>
+    <div class="cf pv3">
+      <div class="fl w-100 w-25-ns">
+        <img class="db w-100" src="/images/about.jpg" alt="Henrique Alves Picture">
+      </div>
+      <div class="fl w-100 w-75-ns pt2-ns pl4-ns">
+        <p class="f5 f5-ns lh-copy measure">
+          I'm passionated about user experience design and user interfaces.
+        </p>
+        <p class="f5 f5-ns lh-copy measure">
+          I have a vast experience building digital products in a different range of industries. I value collaboration, simplicity, craftsmanship and flow.
+        </p>
+        <p class="f5 f5-ns lh-copy measure">
+          Currently building trading tools with React, Redux at
+          <a href="http://fathomlondon.com/" class="link" title="Fathom London">Fathom</a>.
+        </p>
+        <p class="f5 f5-ns lh-copy measure">
+          My previous work experience also includes
+          <a href="https://lystable.com/" class="link black-50" title="Lystable">Lystable</a>,
+          <a href="https://www.rbs.co.uk" class="link black-50" title="RBS">Royal Bank of Scotland</a>,
+          <a href="https://www.hailoapp.com" class="link black-50" title="Hailo">Hailo</a>,
+          <a href="http://www.thetimes.co.uk/" class="link black-50" title="The Times">The Times</a> and
+          <a href="http://b-reel.com/" class="link black-50" title="B-Reel">B-Reel</a>.
+        </p>
       </div>
     </div>
+  </div>
+</section>
 
-    <div class="availability">
-      <a href="#" title="Not available" ontouchstart="return false;" onclick="return false;" class="availability-current">Availability <i></i></a>
-    </div>
-
-    <p>Frontend Engineer passionated about user experience design and user
-      interfaces. Currently Principal Engineer at <a href="http://dadi.co">Dadi</a>.
-    </p>
-
-    <p>My previous work experience also includes
-      <a href="http://lystable.com">Lystable</a>,
-      <a href="https://www.rbs.co.uk">Royal Bank of Scotland</a>,
-      <a href="https://www.hailoapp.com">Hailo</a>,
-      <a href="http://www.thetimes.co.uk/">The Times</a> and
-      <a href="http://b-reel.com/">B-Reel</a>.
-    </p>
+<section class="pv5 pv5-ns cf bb b--light-gray ph3 ph5-ns">
+  <div class="cf mw7 center ph3">
+    <h2 class="f5 tracked ttu mb4">Speaking</h2>
+    {% for talk in site.data.speaking %}
     <p>
-      You can find me on
-      <a href="https://twitter.com/healves82">Twitter</a>,
-      <a href="https://github.com/henriquea">GitHub</a>,
-      <a href="https://www.linkedin.com/in/healves82">LinkedIn</a> or
-      <a href="https://www.instagram.com/healves82">Instagram</a>.
+      <small class="f6 fw2 ttu tracked">{{ talk.date }}</small>
+      <a class="f5 fw4 dim link blue db pv1" href="{{talk.url}}" title="{{talk.title}}">{{talk.title}}</a>
     </p>
-  </header>
+    {% endfor %}
+  </div>
+</section>
 
-</article>
+<section class="pv5 pv5-ns cf bb b--light-gray ph3 ph5-ns" id="contact">
+  <div class="mw7 center tc ph3">
+    <h2 class="f3">Contact</h2>
+    <p class="center f5 f4-ns mw6 lh-copy pv4 ph3">
+      I'm <strong>not available</strong> until October 2016. Get in touch at <a  class="link black-50" href="mailto:henriquea@gmail.com">henriquea@gmail.com</a> or find me on
+      <a href="https://twitter.com/healves82" class="link black-50">Twitter</a>,
+      <a href="https://github.com/henriquea" class="link black-50" title="">GitHub</a> or
+      <a href="https://www.instagram.com/healves82" class="link black-50" title="Instagram">Instagram</a>.
+    </p>
+  </div>
+</section>
