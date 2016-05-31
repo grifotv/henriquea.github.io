@@ -2,7 +2,7 @@
   <div class="dtc v-mid w-75 tr">
     {% for link in site.data.nav %}
     {% assign classnames = "f6 fw6 dim link black-70 mr1 mr3-m mr4-l" %}
-    <a class="{{ classnames }} {% if link.last %}dn dib-ns{% else %}dib{% endif %}" href="{{ link.url }}" title="{{ link.title }}">
+    <a class="{{ classnames }} {% if link.last %}dn dib-ns{% else %}dib{% endif %}" href="{{ link.link }}" title="{{ link.title }}">
       {{ link.title }}
     </a>
     {% endfor %}
